@@ -1,0 +1,27 @@
+{
+  "name": "scala",
+  "argv": [
+    "/home/mahmood/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.8.2/scala3-3.8.2-x86_64-pc-linux.tar.gz/scala3-3.8.2-x86_64-pc-linux/libexec/scala-cli",
+    "--cli-default-scala-version",
+    "3.8.2",
+    "--repository",
+    "file:///home/mahmood/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.8.2/scala3-3.8.2-x86_64-pc-linux.tar.gz/scala3-3.8.2-x86_64-pc-linux/maven2",
+    "--prog-name",
+    "scala",
+    "--skip-cli-updates",
+    "bsp",
+    "--json-options",
+    "/home/mahmood/code/fp-in-scala/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/mahmood/code/fp-in-scala/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/mahmood/code/fp-in-scala/.scala-build/ide-envs.json",
+    "/home/mahmood/code/fp-in-scala/main.scala"
+  ],
+  "version": "1.12.2",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

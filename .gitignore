@@ -1,0 +1,29 @@
+# Scala CLI / Bloop / BSP build outputs
+.scala-build/
+.bloop/
+.bsp/
+
+# SBT / Ivy / Coursier caches (project-local)
+target/
+project/target/
+project/project/
+lib_managed/
+src_managed/
+
+# Metals / Bloop workspace files
+.metals/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS / editor temp files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+.nvimlog
